@@ -1,0 +1,81 @@
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #F2F6FF;
+  color: #102653;
+  margin: 0;
+  padding: 20px 0;
+}
+
+
+.container {
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 { margin: 0; font-size: 26px; font-weight: 900; }
+.sous-titre { color: #526484; margin: 4px 0 20px 0; }
+
+.stats {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+.stat {
+  flex: 1;
+  background: #FFFFFF;
+  border: 1px solid #DCE6F7;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 3px 12px rgba(30, 64, 175, 0.08);
+}
+.stat .nombre { font-size: 30px; font-weight: 900; }
+.stat .texte  { color: #526484; font-size: 14px; }
+
+
+h2.titre-liste { font-size: 18px; margin-bottom: 14px; }
+
+.carte {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #FFFFFF;
+  border: 1px solid #DFE8F6;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 12px rgba(30, 64, 175, 0.08);
+}
+.carte .infos { flex: 1; }
+.carte h3 { margin: 0; font-size: 18px; color: #102653; }
+.carte p  { margin: 4px 0 0 0; font-size: 15px; color: #526484; }
+
+
+.carte.terminee {
+  background: #E9F8EF;
+  border-color: #D1EFDC;
+}
+.carte.terminee h3 {
+  color: #64748B;
+  text-decoration: line-through;
+}
+
+
+.badge {
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.haute   { background: #FDE2E2; color: #C62828; }
+.moyenne { background: #DFECFF; color: #1769D2; }
+.basse   { background: #E1F6E3; color: #237A35; }
+
+.etat-terminee { background: #D1F2DC; color: #16803C; }
+.etat-afaire   { background: #E8EDF5; color: #526484; }
+
+.date { color: #526484; font-size: 15px; }
+
+
+svg { width: 22px; height: 22px; vertical-align: middle; }

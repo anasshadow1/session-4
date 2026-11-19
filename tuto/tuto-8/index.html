@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ma Todo List</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Ma Todo List</h1>
+    <p class="sous-titre">Gérez et suivez vos tâches quotidiennes</p>
+
+    
+    <div class="stats">
+      <div class="stat">
+        <div class="texte">Total</div>
+        <div class="nombre">8</div>
+        <div class="texte">tâches</div>
+      </div>
+      <div class="stat">
+        <div class="texte">Terminées</div>
+        <div class="nombre">3</div>
+        <div class="texte">tâches</div>
+      </div>
+      <div class="stat">
+        <div class="texte">Non terminées</div>
+        <div class="nombre">5</div>
+        <div class="texte">tâches</div>
+      </div>
+    </div>
+
+    <h2 class="titre-liste">Liste des tâches</h2>
+
+    <!-- Tâche 1 (terminée) -->
+    <div class="carte terminee">
+      <i data-lucide="square-check"></i>
+      <div class="infos">
+        <h3>Créer la structure HTML</h3>
+        <p>Réaliser la structure HTML de la page d’accueil.</p>
+      </div>
+      <span class="badge haute">Haute</span>
+      <span class="badge etat-terminee">Terminée</span>
+      <span class="date"><i data-lucide="calendar"></i> 15/11/2026</span>
+    </div>
+
+    <!-- Tâche 2 (à faire) -->
+    <div class="carte">
+      <i data-lucide="square"></i>
+      <div class="infos">
+        <h3>Intégrer les styles CSS</h3>
+        <p>Appliquer les couleurs et les espacements.</p>
+      </div>
+      <span class="badge moyenne">Moyenne</span>
+      <span class="badge etat-afaire">À faire</span>
+      <span class="date"><i data-lucide="calendar"></i> 17/11/2026</span>
+    </div>
+
+    <!-- Tâche 3 (terminée) -->
+    <div class="carte terminee">
+      <i data-lucide="square-check"></i>
+      <div class="infos">
+        <h3>Créer les fonctions PHP</h3>
+        <p>Organiser les traitements de la Todo List.</p>
+      </div>
+      <span class="badge haute">Haute</span>
+      <span class="badge etat-terminee">Terminée</span>
+      <span class="date"><i data-lucide="calendar"></i> 10/11/2026</span>
+    </div>
+
+    <!-- Tâche 4 (à faire) -->
+    <div class="carte">
+      <i data-lucide="square"></i>
+      <div class="infos">
+        <h3>Tester l’application</h3>
+        <p>Vérifier le bon fonctionnement et corriger les erreurs.</p>
+      </div>
+      <span class="badge basse">Basse</span>
+      <span class="badge etat-afaire">À faire</span>
+      <span class="date"><i data-lucide="calendar"></i> 20/11/2026</span>
+    </div>
+
+    <!-- Tâche 5 (terminée) -->
+    <div class="carte terminee">
+      <i data-lucide="square-check"></i>
+      <div class="infos">
+        <h3>Préparer la collection des tâches</h3>
+        <p>Créer un tableau multidimensionnel avec 8 tâches.</p>
+      </div>
+      <span class="badge moyenne">Moyenne</span>
+      <span class="badge etat-terminee">Terminée</span>
+      <span class="date"><i data-lucide="calendar"></i> 12/11/2026</span>
+    </div>
+
+    <!-- Tâche 6 (à faire) -->
+    <div class="carte">
+      <i data-lucide="square"></i>
+      <div class="infos">
+        <h3>Afficher les statistiques</h3>
+        <p>Calculer et afficher le total, les tâches terminées et non terminées.</p>
+      </div>
+      <span class="badge haute">Haute</span>
+      <span class="badge etat-afaire">À faire</span>
+      <span class="date"><i data-lucide="calendar"></i> 21/11/2026</span>
+    </div>
+
+    <!-- Tâche 7 (à faire) -->
+    <div class="carte">
+      <i data-lucide="square"></i>
+      <div class="infos">
+        <h3>Organiser les fichiers du projet</h3>
+        <p>Créer un dossier pour le projet et y placer les fichiers (index.php, style…</p>
+      </div>
+      <span class="badge basse">Basse</span>
+      <span class="badge etat-afaire">À faire</span>
+      <span class="date"><i data-lucide="calendar"></i> 22/11/2026</span>
+    </div>
+
+    <!-- Tâche 8 (à faire) -->
+    <div class="carte">
+      <i data-lucide="square"></i>
+      <div class="infos">
+        <h3>Vérifier l’affichage des tâches</h3>
+        <p>Tester tous les cas (terminée et non terminée) et corriger le style.</p>
+      </div>
+      <span class="badge moyenne">Moyenne</span>
+      <span class="badge etat-afaire">À faire</span>
+      <span class="date"><i data-lucide="calendar"></i> 24/11/2026</span>
+    </div>
+
+  </div>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
